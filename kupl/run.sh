@@ -1,0 +1,1 @@
+KUPL_EXECUTOR_COUNT=1024 KUPL_EXECUTOR_BACKEND=pthread numactl -N 0 ./bin/test_main
