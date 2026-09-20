@@ -15,8 +15,8 @@ endif()
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -pipe -fopenmp")
 
-include_directories("$ENV{HPCKIT_PATH}/latest/kurtm/${KURTM_COMPILER}/include")
-link_directories($ENV{HPCKIT_PATH}/latest/kurtm/${KURTM_COMPILER}/lib)
+include_directories("$ENV{HPCKIT_PATH}/latest/kugeo/${KURTM_COMPILER}/include")
+link_directories($ENV{HPCKIT_PATH}/latest/kugeo/${KURTM_COMPILER}/lib)
 
 add_executable(benchmark benchmark.cpp)
 
